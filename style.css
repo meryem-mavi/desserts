@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #758107;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    color: #ddd;
+    padding: 20px 150px;
+}
+.container .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.container .menu .name {
+    font-size: 40px;
+    font-weight: bold;
+}
+.container .menu .list ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.container .menu .list ul a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #ddd;
+}
+.container .main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .main .contact {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 50px 0;
+}
+.container .main .contact h1{
+    font-weight: thin;
+    font-size: 70px;
+   padding: 0;
+   margin: 0;
+}
+.container .main .contact p{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.container .main .contact .write {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.container .main .contact .write span {
+    border: 1px solid #eee;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+.container .main .contact .button button {
+    font-size: 18px;
+    margin: 40px 0;
+    padding: 5px 30px;
+    color: #eee;
+    background-color: #000;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+.container .main .photo {
+    padding: 50px 0;
+}
+.container .main .photo img {
+    border-radius: 200px;
+    margin-right: -100px;
+    width: 700px;
+    height: 400px;
+    transform: rotate(180deg);
+}
